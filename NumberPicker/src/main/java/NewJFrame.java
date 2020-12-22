@@ -173,8 +173,10 @@ public class NewJFrame extends javax.swing.JFrame {
         
         int n=-1;
         switch (sub){
+            //this code changes the background color for the factoring statements
             case "These numbers h":
             
+                //get's number
             if(s.length()==33){
                 n=Integer.parseInt(s.substring(31,33));
                 System.out.println(s.substring(31,33));
@@ -199,7 +201,7 @@ public class NewJFrame extends javax.swing.JFrame {
             
             case "If you subtract":
                 
-            System.out.println("HERE -> " +sub+"  "+s.length());
+                //case for when you click a button that subtracts then tens digit from the ones digit
             
             if(s.length()==64){
                 n=Integer.parseInt(s.substring(62,64));
@@ -210,7 +212,7 @@ public class NewJFrame extends javax.swing.JFrame {
             } else {
                 System.exit(0);
             }
-            System.err.println("HERE "+n);
+            
             
            
             int p;
@@ -225,7 +227,8 @@ public class NewJFrame extends javax.swing.JFrame {
             break;
             
             case "If you add up t":
-             System.out.println("HERE -> " +sub+"  "+s.length()); 
+                //if a button adds the tens and ones digit
+             
             
              if(s.length()==68){
                 n=Integer.parseInt(s.substring(66,68));
@@ -237,8 +240,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 System.exit(0);
             }
             
-             System.err.println("HEREaddasasas "+n);
-             
+            
              
             int t=0;
             int k;
@@ -261,8 +263,7 @@ public class NewJFrame extends javax.swing.JFrame {
             
             case "It's ten's digi":
                 
-                
-                System.out.println("HERE -> " +sub+"  "+s.length()); 
+               //if buttons checks for 10's digit
             
              if (s.length()==21){
                 n=Integer.parseInt(s.substring(20,21));
@@ -271,7 +272,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 System.exit(0);
             }
             
-             System.err.println("HEREsas "+n);
+             
              n=n*10;
              int nten=n+10;
               while (n<nten){
@@ -284,6 +285,7 @@ public class NewJFrame extends javax.swing.JFrame {
             
             
             case "It's one's digi":
+                //if button checks for one's digit
             if (s.length()==21){
                 n=Integer.parseInt(s.substring(20,21));
                
