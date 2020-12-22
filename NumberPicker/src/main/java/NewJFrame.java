@@ -14,16 +14,7 @@ import javax.swing.JTextField;
 import javax.swing.JToggleButton;
 
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author Michael
- */
 
 public class NewJFrame extends javax.swing.JFrame {
     public Simulation runnable;
@@ -45,224 +36,10 @@ public class NewJFrame extends javax.swing.JFrame {
         this.jButton1 = jButton1;
         this.jLabel1 = jLabel1;
         this.jLabel10 = jLabel10;
-        this.jLabel100 = jLabel100;
-        this.jLabel101 = jLabel101;
-        this.jLabel102 = jLabel102;
-        this.jLabel103 = jLabel103;
-        this.jLabel104 = jLabel104;
-        this.jLabel105 = jLabel105;
-        this.jLabel106 = jLabel106;
-        this.jLabel107 = jLabel107;
-        this.jLabel108 = jLabel108;
-        this.jLabel109 = jLabel109;
-        this.jLabel11 = jLabel11;
-        this.jLabel110 = jLabel110;
-        this.jLabel111 = jLabel111;
-        this.jLabel112 = jLabel112;
-        this.jLabel113 = jLabel113;
-        this.jLabel114 = jLabel114;
-        this.jLabel115 = jLabel115;
-        this.jLabel116 = jLabel116;
-        this.jLabel117 = jLabel117;
-        this.jLabel118 = jLabel118;
-        this.jLabel119 = jLabel119;
-        this.jLabel12 = jLabel12;
-        this.jLabel120 = jLabel120;
-        this.jLabel121 = jLabel121;
-        this.jLabel122 = jLabel122;
-        this.jLabel123 = jLabel123;
-        this.jLabel124 = jLabel124;
-        this.jLabel125 = jLabel125;
-        this.jLabel126 = jLabel126;
-        this.jLabel127 = jLabel127;
-        this.jLabel128 = jLabel128;
-        this.jLabel129 = jLabel129;
-        this.jLabel13 = jLabel13;
-        this.jLabel130 = jLabel130;
-        this.jLabel131 = jLabel131;
-        this.jLabel132 = jLabel132;
-        this.jLabel133 = jLabel133;
-        this.jLabel134 = jLabel134;
-        this.jLabel135 = jLabel135;
-        this.jLabel136 = jLabel136;
-        this.jLabel137 = jLabel137;
-        this.jLabel138 = jLabel138;
-        this.jLabel139 = jLabel139;
-        this.jLabel14 = jLabel14;
-        this.jLabel140 = jLabel140;
-        this.jLabel141 = jLabel141;
-        this.jLabel142 = jLabel142;
-        this.jLabel143 = jLabel143;
-        this.jLabel144 = jLabel144;
-        this.jLabel145 = jLabel145;
-        this.jLabel146 = jLabel146;
-        this.jLabel147 = jLabel147;
-        this.jLabel148 = jLabel148;
-        this.jLabel149 = jLabel149;
-        this.jLabel15 = jLabel15;
-        this.jLabel150 = jLabel150;
-        this.jLabel151 = jLabel151;
-        this.jLabel152 = jLabel152;
-        this.jLabel153 = jLabel153;
-        this.jLabel154 = jLabel154;
-        this.jLabel155 = jLabel155;
-        this.jLabel156 = jLabel156;
-        this.jLabel157 = jLabel157;
-        this.jLabel158 = jLabel158;
-        this.jLabel159 = jLabel159;
-        this.jLabel16 = jLabel16;
-        this.jLabel160 = jLabel160;
-        this.jLabel161 = jLabel161;
-        this.jLabel162 = jLabel162;
-        this.jLabel163 = jLabel163;
-        this.jLabel164 = jLabel164;
-        this.jLabel165 = jLabel165;
-        this.jLabel166 = jLabel166;
-        this.jLabel167 = jLabel167;
-        this.jLabel168 = jLabel168;
-        this.jLabel169 = jLabel169;
-        this.jLabel17 = jLabel17;
-        this.jLabel170 = jLabel170;
-        this.jLabel171 = jLabel171;
-        this.jLabel172 = jLabel172;
-        this.jLabel173 = jLabel173;
-        this.jLabel174 = jLabel174;
-        this.jLabel175 = jLabel175;
-        this.jLabel176 = jLabel176;
-        this.jLabel177 = jLabel177;
-        this.jLabel178 = jLabel178;
-        this.jLabel179 = jLabel179;
-        this.jLabel18 = jLabel18;
-        this.jLabel180 = jLabel180;
-        this.jLabel181 = jLabel181;
-        this.jLabel182 = jLabel182;
-        this.jLabel183 = jLabel183;
-        this.jLabel184 = jLabel184;
-        this.jLabel185 = jLabel185;
-        this.jLabel186 = jLabel186;
-        this.jLabel187 = jLabel187;
-        this.jLabel188 = jLabel188;
-        this.jLabel189 = jLabel189;
-        this.jLabel19 = jLabel19;
-        this.jLabel190 = jLabel190;
-        this.jLabel191 = jLabel191;
-        this.jLabel192 = jLabel192;
-        this.jLabel193 = jLabel193;
-        this.jLabel194 = jLabel194;
-        this.jLabel195 = jLabel195;
-        this.jLabel196 = jLabel196;
-        this.jLabel197 = jLabel197;
-        this.jLabel198 = jLabel198;
-      
-        this.jLabel2 = jLabel2;
-        this.jLabel20 = jLabel20;
-        this.jLabel21 = jLabel21;
-        this.jLabel22 = jLabel22;
-        this.jLabel23 = jLabel23;
-        this.jLabel24 = jLabel24;
-        this.jLabel25 = jLabel25;
-        this.jLabel26 = jLabel26;
-        this.jLabel27 = jLabel27;
-        this.jLabel28 = jLabel28;
-        this.jLabel29 = jLabel29;
-        this.jLabel3 = jLabel3;
-        this.jLabel30 = jLabel30;
-        this.jLabel31 = jLabel31;
-        this.jLabel32 = jLabel32;
-        this.jLabel33 = jLabel33;
-        this.jLabel34 = jLabel34;
-        this.jLabel35 = jLabel35;
-        this.jLabel36 = jLabel36;
-        this.jLabel37 = jLabel37;
-        this.jLabel38 = jLabel38;
-        this.jLabel39 = jLabel39;
-        this.jLabel4 = jLabel4;
-        this.jLabel40 = jLabel40;
-        this.jLabel41 = jLabel41;
-        this.jLabel42 = jLabel42;
-        this.jLabel43 = jLabel43;
-        this.jLabel44 = jLabel44;
-        this.jLabel45 = jLabel45;
-        this.jLabel46 = jLabel46;
-        this.jLabel47 = jLabel47;
-        this.jLabel48 = jLabel48;
-        this.jLabel49 = jLabel49;
-        this.jLabel5 = jLabel5;
-        this.jLabel50 = jLabel50;
-        this.jLabel51 = jLabel51;
-        this.jLabel52 = jLabel52;
-        this.jLabel53 = jLabel53;
-        this.jLabel54 = jLabel54;
-        this.jLabel55 = jLabel55;
-        this.jLabel56 = jLabel56;
-        this.jLabel57 = jLabel57;
-        this.jLabel58 = jLabel58;
-        this.jLabel59 = jLabel59;
-        this.jLabel6 = jLabel6;
-        this.jLabel60 = jLabel60;
-        this.jLabel61 = jLabel61;
-        this.jLabel62 = jLabel62;
-        this.jLabel63 = jLabel63;
-        this.jLabel64 = jLabel64;
-        this.jLabel65 = jLabel65;
-        this.jLabel66 = jLabel66;
-        this.jLabel67 = jLabel67;
-        this.jLabel68 = jLabel68;
-        this.jLabel69 = jLabel69;
-        this.jLabel7 = jLabel7;
-        this.jLabel70 = jLabel70;
-        this.jLabel71 = jLabel71;
-        this.jLabel72 = jLabel72;
-        this.jLabel73 = jLabel73;
-        this.jLabel74 = jLabel74;
-        this.jLabel75 = jLabel75;
-        this.jLabel76 = jLabel76;
-        this.jLabel77 = jLabel77;
-        this.jLabel78 = jLabel78;
-        this.jLabel79 = jLabel79;
-        this.jLabel8 = jLabel8;
-        this.jLabel80 = jLabel80;
-        this.jLabel81 = jLabel81;
-        this.jLabel82 = jLabel82;
-        this.jLabel83 = jLabel83;
-        this.jLabel84 = jLabel84;
-        this.jLabel85 = jLabel85;
-        this.jLabel86 = jLabel86;
-        this.jLabel87 = jLabel87;
-        this.jLabel88 = jLabel88;
-        this.jLabel89 = jLabel89;
-        this.jLabel9 = jLabel9;
-        this.jLabel90 = jLabel90;
-        this.jLabel91 = jLabel91;
-        this.jLabel92 = jLabel92;
-        this.jLabel93 = jLabel93;
-        this.jLabel94 = jLabel94;
-        this.jLabel95 = jLabel95;
-        this.jLabel96 = jLabel96;
-        this.jLabel97 = jLabel97;
-        this.jLabel98 = jLabel98;
-        this.jLabel99 = jLabel99;
-    
-        this.jToggleButton17 = jToggleButton17;
-        this.jToggleButton18 = jToggleButton18;
-        this.jToggleButton19 = jToggleButton19;
-        this.jToggleButton2 = jToggleButton2;
-        this.jToggleButton20 = jToggleButton20;
-        this.jToggleButton21 = jToggleButton21;
-        this.jToggleButton22 = jToggleButton22;
-        this.jToggleButton23 = jToggleButton23;
-        this.jToggleButton24 = jToggleButton24;
-        this.jToggleButton25 = jToggleButton25;
-        this.jToggleButton26 = jToggleButton26;
-        this.jToggleButton27 = jToggleButton27;
-        this.jToggleButton28 = jToggleButton28;
-        this.jToggleButton29 = jToggleButton29;
-        this.jToggleButton30 = jToggleButton30;
-        this.jToggleButton31 = jToggleButton31;
-        this.jToggleButton32 = jToggleButton32;
-        this.jToggleButton33 = jToggleButton33;
-        this.jToggleButton34 = jToggleButton34;
-        this.jToggleButton35 = jToggleButton35;
+        
+        
+        
+        
     }
     
     /**
@@ -276,6 +53,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel199.setVisible(false);
         jButton2.setVisible(false);
         dif=difficulty; 
+        //depending on difficulty get a certain amount o stataements 
         runnable= new Simulation((dif+1)*5);
         runnable.run();
         listOfLabels=new JLabel[99];
@@ -302,7 +80,7 @@ public class NewJFrame extends javax.swing.JFrame {
         
          timer.schedule(task, 0, 1000); //1000 is 1
     }
-    
+    //code that involves timer
     int secondsPassed=0;
     boolean cont=true;
     TimerTask task = new TimerTask() {
@@ -345,7 +123,7 @@ public class NewJFrame extends javax.swing.JFrame {
    
     
     
-    
+    //when a certain buttotn is pressed, it checks to see if the user has the correct answer
     private void checkWin(){
         boolean correct=true;
         for(int i=0;i<listOfLabels.length;i++){
@@ -365,7 +143,7 @@ public class NewJFrame extends javax.swing.JFrame {
         }
     }
 
-    
+    //displays  all the statements we got from our  simulation class
     private void displayPossibleAnswers(){
         ArrayList <String> answers= runnable.getAnswers();
         Collections.shuffle(answers); 
@@ -373,6 +151,172 @@ public class NewJFrame extends javax.swing.JFrame {
         for (int i=0;i<answers.size();i++){
             listsOfAnswers[i].setText(answers.get(i));
         }
+    }
+    
+    
+    //changes the labels with the numbers in the input parameter to color red
+     public void change( ArrayList <Integer> p){
+        
+        for  (int i=0;i<99;i++){
+            if ( !p.contains(i+1)){
+                listOfLabels[i].setBackground(Color.red);
+            }
+           
+        }
+       
+    }
+    
+     
+     //when you press a button, this method determines what it doess
+    public void readButton(String s){
+        String sub = s.substring(0,15);
+        
+        int n=-1;
+        switch (sub){
+            case "These numbers h":
+            
+            if(s.length()==33){
+                n=Integer.parseInt(s.substring(31,33));
+                System.out.println(s.substring(31,33));
+            } else if (s.length()==32){
+                n=Integer.parseInt(s.substring(31,32));
+                System.out.println(s.substring(31,32));
+            } else {
+                System.exit(0);
+            }
+            
+            
+            int choice=n;
+                
+            while (choice<100){
+
+                invert(choice);
+                choice=choice+n;
+            }
+            break;
+            
+            
+            
+            case "If you subtract":
+                
+            System.out.println("HERE -> " +sub+"  "+s.length());
+            
+            if(s.length()==64){
+                n=Integer.parseInt(s.substring(62,64));
+                
+            } else if (s.length()==63){
+                n=Integer.parseInt(s.substring(62,63));
+               
+            } else {
+                System.exit(0);
+            }
+            System.err.println("HERE "+n);
+            
+           
+            int p;
+            for (int i=0;i<10;i++){
+                p=i-n;
+                if(p>=0&&p<10){
+                    p=(i*10)+p;
+                    System.out.println("HEREp "+p);
+                    invert(p);
+                }
+            }
+            break;
+            
+            case "If you add up t":
+             System.out.println("HERE -> " +sub+"  "+s.length()); 
+            
+             if(s.length()==68){
+                n=Integer.parseInt(s.substring(66,68));
+                
+            } else if (s.length()==67){
+                n=Integer.parseInt(s.substring(66,67));
+               
+            } else {
+                System.exit(0);
+            }
+            
+             System.err.println("HEREaddasasas "+n);
+             
+             
+            int t=0;
+            int k;
+            int po;
+
+
+            while (t<=n){
+                k=n-t;
+                po=t+(k*10);
+
+                if (t<10&&k<10) {
+                
+                    invert(po);
+                 }
+                t=t+1;
+            }
+            
+            break;
+            
+            
+            case "It's ten's digi":
+                
+                
+                System.out.println("HERE -> " +sub+"  "+s.length()); 
+            
+             if (s.length()==21){
+                n=Integer.parseInt(s.substring(20,21));
+               
+            } else {
+                System.exit(0);
+            }
+            
+             System.err.println("HEREsas "+n);
+             n=n*10;
+             int nten=n+10;
+              while (n<nten){
+
+                  invert(n);
+                  n=n+1;
+               }
+                
+            break;
+            
+            
+            case "It's one's digi":
+            if (s.length()==21){
+                n=Integer.parseInt(s.substring(20,21));
+               
+            } else {
+                System.exit(0);
+            }
+            
+            while (n<100){
+
+                invert(n);
+                n=n+10;
+            }
+            break;
+            
+        }
+      
+        
+    }
+    
+    
+ //changes a labels background color between black and red
+    private void invert(int i){
+       
+       if(i>0&&i<100){
+         if (listsOfAnswerLabels[i-1].getBackground().equals(new Color(0,0,0))){
+            
+            listsOfAnswerLabels[i-1].setBackground(Color.RED);
+            
+        } else if (listsOfAnswerLabels[i-1].getBackground().equals(Color.RED)){
+            listsOfAnswerLabels[i-1].setBackground(Color.BLACK);
+            }
+       }
+        
     }
     /**
      * This method is called from within the constructor to initialize the form.
@@ -2678,397 +2622,234 @@ public class NewJFrame extends javax.swing.JFrame {
         new StartMenu().setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_jButton2ActionPerformed
-    public void change( ArrayList <Integer> p){
-        
-        for  (int i=0;i<99;i++){
-            if ( !p.contains(i+1)){
-                listOfLabels[i].setBackground(Color.red);
-            }
-           
-        }
-       
-    }
     
-    public void readButton(String s){
-        String sub = s.substring(0,15);
-        System.out.println("HERE -> " +sub+"  "+s.length());
-        int n=-1;
-        switch (sub){
-            case "These numbers h":
-            
-            if(s.length()==33){
-                n=Integer.parseInt(s.substring(31,33));
-                System.out.println(s.substring(31,33));
-            } else if (s.length()==32){
-                n=Integer.parseInt(s.substring(31,32));
-                System.out.println(s.substring(31,32));
-            } else {
-                System.exit(0);
-            }
-            
-            
-            int choice=n;
-                
-            while (choice<100){
-
-                invert(choice);
-                choice=choice+n;
-            }
-            break;
-            
-            
-            
-            case "If you subtract":
-                
-            System.out.println("HERE -> " +sub+"  "+s.length());
-            
-            if(s.length()==64){
-                n=Integer.parseInt(s.substring(62,64));
-                
-            } else if (s.length()==63){
-                n=Integer.parseInt(s.substring(62,63));
-               
-            } else {
-                System.exit(0);
-            }
-            System.err.println("HERE "+n);
-            
-           
-            int p;
-            for (int i=0;i<10;i++){
-                p=i-n;
-                if(p>=0&&p<10){
-                    p=(i*10)+p;
-                    System.out.println("HEREp "+p);
-                    invert(p);
-                }
-            }
-            break;
-            
-            case "If you add up t":
-             System.out.println("HERE -> " +sub+"  "+s.length()); 
-            
-             if(s.length()==68){
-                n=Integer.parseInt(s.substring(66,68));
-                
-            } else if (s.length()==67){
-                n=Integer.parseInt(s.substring(66,67));
-               
-            } else {
-                System.exit(0);
-            }
-            
-             System.err.println("HEREaddasasas "+n);
-             
-             
-            int t=0;
-            int k;
-            int po;
-
-
-            while (t<=n){
-                k=n-t;
-                po=t+(k*10);
-
-                if (t<10&&k<10) {
-                // System.out.println("P "+p);
-                    invert(po);
-                 }
-                t=t+1;
-            }
-            
-            break;
-            
-            
-            case "It's ten's digi":
-                
-                
-                System.out.println("HERE -> " +sub+"  "+s.length()); 
-            
-             if (s.length()==21){
-                n=Integer.parseInt(s.substring(20,21));
-               
-            } else {
-                System.exit(0);
-            }
-            
-             System.err.println("HEREsas "+n);
-             n=n*10;
-             int nten=n+10;
-              while (n<nten){
-
-                  invert(n);
-                  n=n+1;
-               }
-                
-            break;
-            
-            
-            case "It's one's digi":
-            if (s.length()==21){
-                n=Integer.parseInt(s.substring(20,21));
-               
-            } else {
-                System.exit(0);
-            }
-            
-            while (n<100){
-
-                invert(n);
-                n=n+10;
-            }
-            break;
-            
-        }
-      
-        
-    }
-    
-    
-    /**
-     * @param args the command line arguments
-     */
-    private void invert(int i){
-       // System.err.println("i->"+i);
-       // System.err.println(listsOfAnswerLabels[i-1].getBackground()+" and");
-       if(i>0&&i<100){
-         if (listsOfAnswerLabels[i-1].getBackground().equals(new Color(0,0,0))){
-            
-            listsOfAnswerLabels[i-1].setBackground(Color.RED);
-            
-        } else if (listsOfAnswerLabels[i-1].getBackground().equals(Color.RED)){
-            listsOfAnswerLabels[i-1].setBackground(Color.BLACK);
-            }
-       }
-        
-    }
     
     private void addLabels(){
-        listOfLabels[0]=jLabel1;
-        listOfLabels[1]=jLabel2;
-        listOfLabels[2]=jLabel3;
-        listOfLabels[3]=jLabel4;
-        listOfLabels[4]=jLabel5;
-        listOfLabels[5]=jLabel6;
-        listOfLabels[6]=jLabel7;
-        listOfLabels[7]=jLabel8;
-        listOfLabels[8]=jLabel9;
-        listOfLabels[9]=jLabel10;
-        listOfLabels[10]=jLabel11;
-        listOfLabels[11]=jLabel12;
-        listOfLabels[12]=jLabel13;
-        listOfLabels[13]=jLabel14;
-        listOfLabels[14]=jLabel15;
-        listOfLabels[15]=jLabel16;
-        listOfLabels[16]=jLabel17;
-        listOfLabels[17]=jLabel18;
-        listOfLabels[18]=jLabel19;
-        listOfLabels[19]=jLabel20;
-        listOfLabels[20]=jLabel21;
-        listOfLabels[21]=jLabel22;
-        listOfLabels[22]=jLabel23;
-        listOfLabels[23]=jLabel24;
-        listOfLabels[24]=jLabel25;
-        listOfLabels[25]=jLabel26;
-        listOfLabels[26]=jLabel27;
-        listOfLabels[27]=jLabel28;
-        listOfLabels[28]=jLabel29;
-        listOfLabels[29]=jLabel30;
-        listOfLabels[30]=jLabel31;
-        listOfLabels[31]=jLabel32;
-        listOfLabels[32]=jLabel33;
-        listOfLabels[33]=jLabel34;
-        listOfLabels[34]=jLabel35;
-        listOfLabels[35]=jLabel36;
-        listOfLabels[36]=jLabel37;
-        listOfLabels[37]=jLabel38;
-        listOfLabels[38]=jLabel39;
-        listOfLabels[39]=jLabel40;
-        listOfLabels[40]=jLabel41;
-        listOfLabels[41]=jLabel42;
-        listOfLabels[42]=jLabel43;
-        listOfLabels[43]=jLabel44;
-        listOfLabels[44]=jLabel45;
-        listOfLabels[45]=jLabel46;
-        listOfLabels[46]=jLabel47;
-        listOfLabels[47]=jLabel48;
-        listOfLabels[48]=jLabel49;
-        listOfLabels[49]=jLabel50;
-        listOfLabels[50]=jLabel51;
-        listOfLabels[51]=jLabel52;
-        listOfLabels[52]=jLabel53;
-        listOfLabels[53]=jLabel54;
-        listOfLabels[54]=jLabel55;
-        listOfLabels[55]=jLabel56;
-        listOfLabels[56]=jLabel57;
-        listOfLabels[57]=jLabel58;
-        listOfLabels[58]=jLabel59;
-        listOfLabels[59]=jLabel60;
-        listOfLabels[60]=jLabel61;
-        listOfLabels[61]=jLabel62;
-        listOfLabels[62]=jLabel63;
-        listOfLabels[63]=jLabel64;
-        listOfLabels[64]=jLabel65;
-        listOfLabels[65]=jLabel66;
-        listOfLabels[66]=jLabel67;
-        listOfLabels[67]=jLabel68;
-        listOfLabels[68]=jLabel69;
-        listOfLabels[69]=jLabel70;
-        listOfLabels[70]=jLabel71;
-        listOfLabels[71]=jLabel72;
-        listOfLabels[72]=jLabel73;
-        listOfLabels[73]=jLabel74;
-        listOfLabels[74]=jLabel75;
-        listOfLabels[75]=jLabel76;
-        listOfLabels[76]=jLabel77;
-        listOfLabels[77]=jLabel78;
-        listOfLabels[78]=jLabel79;
-        listOfLabels[79]=jLabel80;
-        listOfLabels[80]=jLabel81;
-        listOfLabels[81]=jLabel82;
-        listOfLabels[82]=jLabel83;
-        listOfLabels[83]=jLabel84;
-        listOfLabels[84]=jLabel85;
-        listOfLabels[85]=jLabel86;
-        listOfLabels[86]=jLabel87;
-        listOfLabels[87]=jLabel88;
-        listOfLabels[88]=jLabel89;
-        listOfLabels[89]=jLabel90;
-        listOfLabels[90]=jLabel91;
-        listOfLabels[91]=jLabel92;
-        listOfLabels[92]=jLabel93;
-        listOfLabels[93]=jLabel94;
-        listOfLabels[94]=jLabel95;
-        listOfLabels[95]=jLabel96;
-        listOfLabels[96]=jLabel97;
-        listOfLabels[97]=jLabel98;
-        listOfLabels[98]=jLabel99;
+        listOfLabels[0]=this.jLabel1;
+        listOfLabels[1]=this.jLabel2;
+        listOfLabels[2]=this.jLabel3;
+        listOfLabels[3]=this.jLabel4;
+        listOfLabels[4]=this.jLabel5;
+        listOfLabels[5]=this.jLabel6;
+        listOfLabels[6]=this.jLabel7;
+        listOfLabels[7]=this.jLabel8;
+        listOfLabels[8]=this.jLabel9;
+        listOfLabels[9]=this.jLabel10;
+        listOfLabels[10]=this.jLabel11;
+        listOfLabels[11]=this.jLabel12;
+        listOfLabels[12]=this.jLabel13;
+        listOfLabels[13]=this.jLabel14;
+        listOfLabels[14]=this.jLabel15;
+        listOfLabels[15]=this.jLabel16;
+        listOfLabels[16]=this.jLabel17;
+        listOfLabels[17]=this.jLabel18;
+        listOfLabels[18]=this.jLabel19;
+        listOfLabels[19]=this.jLabel20;
+        listOfLabels[20]=this.jLabel21;
+        listOfLabels[21]=this.jLabel22;
+        listOfLabels[22]=this.jLabel23;
+        listOfLabels[23]=this.jLabel24;
+        listOfLabels[24]=this.jLabel25;
+        listOfLabels[25]=this.jLabel26;
+        listOfLabels[26]=this.jLabel27;
+        listOfLabels[27]=this.jLabel28;
+        listOfLabels[28]=this.jLabel29;
+        listOfLabels[29]=this.jLabel30;
+        listOfLabels[30]=this.jLabel31;
+        listOfLabels[31]=this.jLabel32;
+        listOfLabels[32]=this.jLabel33;
+        listOfLabels[33]=this.jLabel34;
+        listOfLabels[34]=this.jLabel35;
+        listOfLabels[35]=this.jLabel36;
+        listOfLabels[36]=this.jLabel37;
+        listOfLabels[37]=this.jLabel38;
+        listOfLabels[38]=this.jLabel39;
+        listOfLabels[39]=this.jLabel40;
+        listOfLabels[40]=this.jLabel41;
+        listOfLabels[41]=this.jLabel42;
+        listOfLabels[42]=this.jLabel43;
+        listOfLabels[43]=this.jLabel44;
+        listOfLabels[44]=this.jLabel45;
+        listOfLabels[45]=this.jLabel46;
+        listOfLabels[46]=this.jLabel47;
+        listOfLabels[47]=this.jLabel48;
+        listOfLabels[48]=this.jLabel49;
+        listOfLabels[49]=this.jLabel50;
+        listOfLabels[50]=this.jLabel51;
+        listOfLabels[51]=this.jLabel52;
+        listOfLabels[52]=this.jLabel53;
+        listOfLabels[53]=this.jLabel54;
+        listOfLabels[54]=this.jLabel55;
+        listOfLabels[55]=this.jLabel56;
+        listOfLabels[56]=this.jLabel57;
+        listOfLabels[57]=this.jLabel58;
+        listOfLabels[58]=this.jLabel59;
+        listOfLabels[59]=this.jLabel60;
+        listOfLabels[60]=this.jLabel61;
+        listOfLabels[61]=this.jLabel62;
+        listOfLabels[62]=this.jLabel63;
+        listOfLabels[63]=this.jLabel64;
+        listOfLabels[64]=this.jLabel65;
+        listOfLabels[65]=this.jLabel66;
+        listOfLabels[66]=this.jLabel67;
+        listOfLabels[67]=this.jLabel68;
+        listOfLabels[68]=this.jLabel69;
+        listOfLabels[69]=this.jLabel70;
+        listOfLabels[70]=this.jLabel71;
+        listOfLabels[71]=this.jLabel72;
+        listOfLabels[72]=this.jLabel73;
+        listOfLabels[73]=this.jLabel74;
+        listOfLabels[74]=this.jLabel75;
+        listOfLabels[75]=this.jLabel76;
+        listOfLabels[76]=this.jLabel77;
+        listOfLabels[77]=this.jLabel78;
+        listOfLabels[78]=this.jLabel79;
+        listOfLabels[79]=this.jLabel80;
+        listOfLabels[80]=this.jLabel81;
+        listOfLabels[81]=this.jLabel82;
+        listOfLabels[82]=this.jLabel83;
+        listOfLabels[83]=this.jLabel84;
+        listOfLabels[84]=this.jLabel85;
+        listOfLabels[85]=this.jLabel86;
+        listOfLabels[86]=this.jLabel87;
+        listOfLabels[87]=this.jLabel88;
+        listOfLabels[88]=this.jLabel89;
+        listOfLabels[89]=this.jLabel90;
+        listOfLabels[90]=this.jLabel91;
+        listOfLabels[91]=this.jLabel92;
+        listOfLabels[92]=this.jLabel93;
+        listOfLabels[93]=this.jLabel94;
+        listOfLabels[94]=this.jLabel95;
+        listOfLabels[95]=this.jLabel96;
+        listOfLabels[96]=this.jLabel97;
+        listOfLabels[97]=this.jLabel98;
+        listOfLabels[98]=this.jLabel99;
         
         
     }
     private void addAnswers(){
-        listsOfAnswers[0]=jToggleButton17;
-        listsOfAnswers[1]=jToggleButton2;
-        listsOfAnswers[2]=jToggleButton19;
-        listsOfAnswers[3]=jToggleButton18;
-        listsOfAnswers[4]=jToggleButton21;
-        listsOfAnswers[5]=jToggleButton20;
-        listsOfAnswers[6]=jToggleButton23;
-        listsOfAnswers[7]=jToggleButton22;
-        listsOfAnswers[8]=jToggleButton25;
-        listsOfAnswers[9]=jToggleButton24;
-        listsOfAnswers[10]=jToggleButton27;
-        listsOfAnswers[11]=jToggleButton26;
-        listsOfAnswers[12]=jToggleButton29;
-        listsOfAnswers[13]=jToggleButton28;
-        listsOfAnswers[14]=jToggleButton31;
-        listsOfAnswers[15]=jToggleButton30;
-        listsOfAnswers[16]=jToggleButton33;
-        listsOfAnswers[17]=jToggleButton32;
-        listsOfAnswers[18]=jToggleButton35;
-        listsOfAnswers[19]=jToggleButton34;
+        listsOfAnswers[0]=this.jToggleButton17;
+        listsOfAnswers[1]=this.jToggleButton2;
+        listsOfAnswers[2]=this.jToggleButton19;
+        listsOfAnswers[3]=this.jToggleButton18;
+        listsOfAnswers[4]=this.jToggleButton21;
+        listsOfAnswers[5]=this.jToggleButton20;
+        listsOfAnswers[6]=this.jToggleButton23;
+        listsOfAnswers[7]=this.jToggleButton22;
+        listsOfAnswers[8]=this.jToggleButton25;
+        listsOfAnswers[9]=this.jToggleButton24;
+        listsOfAnswers[10]=this.jToggleButton27;
+        listsOfAnswers[11]=this.jToggleButton26;
+        listsOfAnswers[12]=this.jToggleButton29;
+        listsOfAnswers[13]=this.jToggleButton28;
+        listsOfAnswers[14]=this.jToggleButton31;
+        listsOfAnswers[15]=this.jToggleButton30;
+        listsOfAnswers[16]=this.jToggleButton33;
+        listsOfAnswers[17]=this.jToggleButton32;
+        listsOfAnswers[18]=this.jToggleButton35;
+        listsOfAnswers[19]=this.jToggleButton34;
     }
     
     private void addLabels2(){
-        listsOfAnswerLabels[0]=jLabel100;
-        listsOfAnswerLabels[1]=jLabel101;
-        listsOfAnswerLabels[2]=jLabel102;
-        listsOfAnswerLabels[3]=jLabel103;
-        listsOfAnswerLabels[4]=jLabel104;
-        listsOfAnswerLabels[5]=jLabel105;
-        listsOfAnswerLabels[6]=jLabel106;
-        listsOfAnswerLabels[7]=jLabel107;
-        listsOfAnswerLabels[8]=jLabel108;
-        listsOfAnswerLabels[9]=jLabel109;
-        listsOfAnswerLabels[10]=jLabel110;
-        listsOfAnswerLabels[11]=jLabel111;
-        listsOfAnswerLabels[12]=jLabel112;
-        listsOfAnswerLabels[13]=jLabel113;
-        listsOfAnswerLabels[14]=jLabel114;
-        listsOfAnswerLabels[15]=jLabel115;
-        listsOfAnswerLabels[16]=jLabel116;
-        listsOfAnswerLabels[17]=jLabel117;
-        listsOfAnswerLabels[18]=jLabel118;
-        listsOfAnswerLabels[19]=jLabel119;
-         listsOfAnswerLabels[20]=jLabel120;
-        listsOfAnswerLabels[21]=jLabel121;
-        listsOfAnswerLabels[22]=jLabel122;
-        listsOfAnswerLabels[23]=jLabel123;
-        listsOfAnswerLabels[24]=jLabel124;
-        listsOfAnswerLabels[25]=jLabel125;
-        listsOfAnswerLabels[26]=jLabel126;
-        listsOfAnswerLabels[27]=jLabel127;
-        listsOfAnswerLabels[28]=jLabel128;
-        listsOfAnswerLabels[29]=jLabel129;
-         listsOfAnswerLabels[30]=jLabel130;
-        listsOfAnswerLabels[31]=jLabel131;
-        listsOfAnswerLabels[32]=jLabel132;
-        listsOfAnswerLabels[33]=jLabel133;
-        listsOfAnswerLabels[34]=jLabel134;
-        listsOfAnswerLabels[35]=jLabel135;
-        listsOfAnswerLabels[36]=jLabel136;
-        listsOfAnswerLabels[37]=jLabel137;
-        listsOfAnswerLabels[38]=jLabel138;
-        listsOfAnswerLabels[39]=jLabel139;
-         listsOfAnswerLabels[40]=jLabel146;
-        listsOfAnswerLabels[41]=jLabel147;
-        listsOfAnswerLabels[42]=jLabel148;
-        listsOfAnswerLabels[43]=jLabel149;
-        listsOfAnswerLabels[44]=jLabel140;
-        listsOfAnswerLabels[45]=jLabel141;
-        listsOfAnswerLabels[46]=jLabel142;
-        listsOfAnswerLabels[47]=jLabel143;
-        listsOfAnswerLabels[48]=jLabel144;
-        listsOfAnswerLabels[49]=jLabel145;
-         listsOfAnswerLabels[50]=jLabel150;
-        listsOfAnswerLabels[51]=jLabel151;
-        listsOfAnswerLabels[52]=jLabel152;
-        listsOfAnswerLabels[53]=jLabel153;
-        listsOfAnswerLabels[54]=jLabel154;
-        listsOfAnswerLabels[55]=jLabel155;
-        listsOfAnswerLabels[56]=jLabel156;
-        listsOfAnswerLabels[57]=jLabel157;
-        listsOfAnswerLabels[58]=jLabel158;
-        listsOfAnswerLabels[59]=jLabel159;
-         listsOfAnswerLabels[60]=jLabel160;
-        listsOfAnswerLabels[61]=jLabel161;
-        listsOfAnswerLabels[62]=jLabel162;
-        listsOfAnswerLabels[63]=jLabel163;
-        listsOfAnswerLabels[64]=jLabel164;
-        listsOfAnswerLabels[65]=jLabel165;
-        listsOfAnswerLabels[66]=jLabel166;
-        listsOfAnswerLabels[67]=jLabel167;
-        listsOfAnswerLabels[68]=jLabel168;
-        listsOfAnswerLabels[69]=jLabel169;
-         listsOfAnswerLabels[70]=jLabel170;
-        listsOfAnswerLabels[71]=jLabel171;
-        listsOfAnswerLabels[72]=jLabel172;
-        listsOfAnswerLabels[73]=jLabel173;
-        listsOfAnswerLabels[74]=jLabel174;
-        listsOfAnswerLabels[75]=jLabel175;
-        listsOfAnswerLabels[76]=jLabel176;
-        listsOfAnswerLabels[77]=jLabel177;
-        listsOfAnswerLabels[78]=jLabel178;
-        listsOfAnswerLabels[79]=jLabel179;
-         listsOfAnswerLabels[80]=jLabel180;
-        listsOfAnswerLabels[81]=jLabel181;
-        listsOfAnswerLabels[82]=jLabel182;
-        listsOfAnswerLabels[83]=jLabel183;
-        listsOfAnswerLabels[84]=jLabel184;
-        listsOfAnswerLabels[85]=jLabel185;
-        listsOfAnswerLabels[86]=jLabel186;
-        listsOfAnswerLabels[87]=jLabel187;
-        listsOfAnswerLabels[88]=jLabel188;
-        listsOfAnswerLabels[89]=jLabel189;
-         listsOfAnswerLabels[90]=jLabel190;
-        listsOfAnswerLabels[91]=jLabel191;
-        listsOfAnswerLabels[92]=jLabel192;
-        listsOfAnswerLabels[93]=jLabel193;
-        listsOfAnswerLabels[94]=jLabel194;
-        listsOfAnswerLabels[95]=jLabel195;
-        listsOfAnswerLabels[96]=jLabel196;
-        listsOfAnswerLabels[97]=jLabel197;
-        listsOfAnswerLabels[98]=jLabel198;
+        listsOfAnswerLabels[0]=this.jLabel100;
+        listsOfAnswerLabels[1]=this.jLabel101;
+        listsOfAnswerLabels[2]=this.jLabel102;
+        listsOfAnswerLabels[3]=this.jLabel103;
+        listsOfAnswerLabels[4]=this.jLabel104;
+        listsOfAnswerLabels[5]=this.jLabel105;
+        listsOfAnswerLabels[6]=this.jLabel106;
+        listsOfAnswerLabels[7]=this.jLabel107;
+        listsOfAnswerLabels[8]=this.jLabel108;
+        listsOfAnswerLabels[9]=this.jLabel109;
+        listsOfAnswerLabels[10]=this.jLabel110;
+        listsOfAnswerLabels[11]=this.jLabel111;
+        listsOfAnswerLabels[12]=this.jLabel112;
+        listsOfAnswerLabels[13]=this.jLabel113;
+        listsOfAnswerLabels[14]=this.jLabel114;
+        listsOfAnswerLabels[15]=this.jLabel115;
+        listsOfAnswerLabels[16]=this.jLabel116;
+        listsOfAnswerLabels[17]=this.jLabel117;
+        listsOfAnswerLabels[18]=this.jLabel118;
+        listsOfAnswerLabels[19]=this.jLabel119;
+         listsOfAnswerLabels[20]=this.jLabel120;
+        listsOfAnswerLabels[21]=this.jLabel121;
+        listsOfAnswerLabels[22]=this.jLabel122;
+        listsOfAnswerLabels[23]=this.jLabel123;
+        listsOfAnswerLabels[24]=this.jLabel124;
+        listsOfAnswerLabels[25]=this.jLabel125;
+        listsOfAnswerLabels[26]=this.jLabel126;
+        listsOfAnswerLabels[27]=this.jLabel127;
+        listsOfAnswerLabels[28]=this.jLabel128;
+        listsOfAnswerLabels[29]=this.jLabel129;
+         listsOfAnswerLabels[30]=this.jLabel130;
+        listsOfAnswerLabels[31]=this.jLabel131;
+        listsOfAnswerLabels[32]=this.jLabel132;
+        listsOfAnswerLabels[33]=this.jLabel133;
+        listsOfAnswerLabels[34]=this.jLabel134;
+        listsOfAnswerLabels[35]=this.jLabel135;
+        listsOfAnswerLabels[36]=this.jLabel136;
+        listsOfAnswerLabels[37]=this.jLabel137;
+        listsOfAnswerLabels[38]=this.jLabel138;
+        listsOfAnswerLabels[39]=this.jLabel139;
+         listsOfAnswerLabels[40]=this.jLabel146;
+        listsOfAnswerLabels[41]=this.jLabel147;
+        listsOfAnswerLabels[42]=this.jLabel148;
+        listsOfAnswerLabels[43]=this.jLabel149;
+        listsOfAnswerLabels[44]=this.jLabel140;
+        listsOfAnswerLabels[45]=this.jLabel141;
+        listsOfAnswerLabels[46]=this.jLabel142;
+        listsOfAnswerLabels[47]=this.jLabel143;
+        listsOfAnswerLabels[48]=this.jLabel144;
+        listsOfAnswerLabels[49]=this.jLabel145;
+         listsOfAnswerLabels[50]=this.jLabel150;
+        listsOfAnswerLabels[51]=this.jLabel151;
+        listsOfAnswerLabels[52]=this.jLabel152;
+        listsOfAnswerLabels[53]=this.jLabel153;
+        listsOfAnswerLabels[54]=this.jLabel154;
+        listsOfAnswerLabels[55]=this.jLabel155;
+        listsOfAnswerLabels[56]=this.jLabel156;
+        listsOfAnswerLabels[57]=this.jLabel157;
+        listsOfAnswerLabels[58]=this.jLabel158;
+        listsOfAnswerLabels[59]=this.jLabel159;
+         listsOfAnswerLabels[60]=this.jLabel160;
+        listsOfAnswerLabels[61]=this.jLabel161;
+        listsOfAnswerLabels[62]=this.jLabel162;
+        listsOfAnswerLabels[63]=this.jLabel163;
+        listsOfAnswerLabels[64]=this.jLabel164;
+        listsOfAnswerLabels[65]=this.jLabel165;
+        listsOfAnswerLabels[66]=this.jLabel166;
+        listsOfAnswerLabels[67]=this.jLabel167;
+        listsOfAnswerLabels[68]=this.jLabel168;
+        listsOfAnswerLabels[69]=this.jLabel169;
+         listsOfAnswerLabels[70]=this.jLabel170;
+        listsOfAnswerLabels[71]=this.jLabel171;
+        listsOfAnswerLabels[72]=this.jLabel172;
+        listsOfAnswerLabels[73]=this.jLabel173;
+        listsOfAnswerLabels[74]=this.jLabel174;
+        listsOfAnswerLabels[75]=this.jLabel175;
+        listsOfAnswerLabels[76]=this.jLabel176;
+        listsOfAnswerLabels[77]=this.jLabel177;
+        listsOfAnswerLabels[78]=this.jLabel178;
+        listsOfAnswerLabels[79]=this.jLabel179;
+         listsOfAnswerLabels[80]=this.jLabel180;
+        listsOfAnswerLabels[81]=this.jLabel181;
+        listsOfAnswerLabels[82]=this.jLabel182;
+        listsOfAnswerLabels[83]=this.jLabel183;
+        listsOfAnswerLabels[84]=this.jLabel184;
+        listsOfAnswerLabels[85]=this.jLabel185;
+        listsOfAnswerLabels[86]=this.jLabel186;
+        listsOfAnswerLabels[87]=this.jLabel187;
+        listsOfAnswerLabels[88]=this.jLabel188;
+        listsOfAnswerLabels[89]=this.jLabel189;
+         listsOfAnswerLabels[90]=this.jLabel190;
+        listsOfAnswerLabels[91]=this.jLabel191;
+        listsOfAnswerLabels[92]=this.jLabel192;
+        listsOfAnswerLabels[93]=this.jLabel193;
+        listsOfAnswerLabels[94]=this.jLabel194;
+        listsOfAnswerLabels[95]=this.jLabel195;
+        listsOfAnswerLabels[96]=this.jLabel196;
+        listsOfAnswerLabels[97]=this.jLabel197;
+        listsOfAnswerLabels[98]=this.jLabel198;
         
         
     }
