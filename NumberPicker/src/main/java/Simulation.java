@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Simulation {
     Random rand;
-    //each of these arrays corresponds to one of the below method
+    //each of these arrays corresponds to one of the metthtods in each class
     ArrayList<Integer> possibilities;
     ArrayList<Integer> ones;
     ArrayList<Integer> tens;
@@ -12,12 +12,15 @@ public class Simulation {
     ArrayList<Integer> TaO;
     ArrayList <Integer> SsF;
    
+    //all the numbers that will be red in the final answer
     ArrayList <String> answers;
-    
+    //number of buttons in the game 9dependss on difficulty 
     int NoOfStatements;
     
-    Simulation(int hard){
-        NoOfStatements=hard;
+    Simulation(int n){
+        
+        //the amount of buttons (depends on the difficulltlltyty)
+        NoOfStatements=n;
         rand = new Random();
         //all the numbers that are in the final answer
         possibilities=new ArrayList<Integer>();
@@ -50,7 +53,7 @@ public class Simulation {
                     
                     TensDigit(true);
                     break;
-                case 2:
+                 case 2:
 
                     addTensAndOnes(true);
                     break;
@@ -117,7 +120,7 @@ public class Simulation {
         return answers;
     }
     
-    
+    //deletes all the arrayylistts 
     public  void reset() {
         for (int i=1;i<100;i++){
                 possibilities.add(i);

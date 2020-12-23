@@ -13,18 +13,27 @@ import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.JToggleButton;
 
-
+//this class is the main game screen
 
 
 public class NewJFrame extends javax.swing.JFrame {
+    //what generates all the statements we will put in the buttons 
     public Simulation runnable;
+    //lebels 1-99 on the left side
     public JLabel[] listOfLabels;
+    //labels 1-99 on the right side
     public JLabel[] listsOfAnswerLabels;
+    //the buttons on the bottom
     public JToggleButton[] listsOfAnswers;
+    //the timer we use
     public Timer timer;
+    //the difficulty,1=easy, 2=medium, 3=hard 
     public int dif;
+    //represents if the user got the wrong answer
     boolean wrong;
+    //used for the timer
     public static int counter;
+    //represents if the player solved the puzzle
     boolean done;
     public NewJFrame(Simulation runnable, JLabel[] listOfLabels, JLabel[] listsOfAnswerLabels, JToggleButton[] listsOfAnswers, Timer timer, int dif, JButton jButton1, JLabel jLabel1, JLabel jLabel10, JLabel jLabel100, JLabel jLabel101, JLabel jLabel102, JLabel jLabel103, JLabel jLabel104, JLabel jLabel105, JLabel jLabel106, JLabel jLabel107, JLabel jLabel108, JLabel jLabel109, JLabel jLabel11, JLabel jLabel110, JLabel jLabel111, JLabel jLabel112, JLabel jLabel113, JLabel jLabel114, JLabel jLabel115, JLabel jLabel116, JLabel jLabel117, JLabel jLabel118, JLabel jLabel119, JLabel jLabel12, JLabel jLabel120, JLabel jLabel121, JLabel jLabel122, JLabel jLabel123, JLabel jLabel124, JLabel jLabel125, JLabel jLabel126, JLabel jLabel127, JLabel jLabel128, JLabel jLabel129, JLabel jLabel13, JLabel jLabel130, JLabel jLabel131, JLabel jLabel132, JLabel jLabel133, JLabel jLabel134, JLabel jLabel135, JLabel jLabel136, JLabel jLabel137, JLabel jLabel138, JLabel jLabel139, JLabel jLabel14, JLabel jLabel140, JLabel jLabel141, JLabel jLabel142, JLabel jLabel143, JLabel jLabel144, JLabel jLabel145, JLabel jLabel146, JLabel jLabel147, JLabel jLabel148, JLabel jLabel149, JLabel jLabel15, JLabel jLabel150, JLabel jLabel151, JLabel jLabel152, JLabel jLabel153, JLabel jLabel154, JLabel jLabel155, JLabel jLabel156, JLabel jLabel157, JLabel jLabel158, JLabel jLabel159, JLabel jLabel16, JLabel jLabel160, JLabel jLabel161, JLabel jLabel162, JLabel jLabel163, JLabel jLabel164, JLabel jLabel165, JLabel jLabel166, JLabel jLabel167, JLabel jLabel168, JLabel jLabel169, JLabel jLabel17, JLabel jLabel170, JLabel jLabel171, JLabel jLabel172, JLabel jLabel173, JLabel jLabel174, JLabel jLabel175, JLabel jLabel176, JLabel jLabel177, JLabel jLabel178, JLabel jLabel179, JLabel jLabel18, JLabel jLabel180, JLabel jLabel181, JLabel jLabel182, JLabel jLabel183, JLabel jLabel184, JLabel jLabel185, JLabel jLabel186, JLabel jLabel187, JLabel jLabel188, JLabel jLabel189, JLabel jLabel19, JLabel jLabel190, JLabel jLabel191, JLabel jLabel192, JLabel jLabel193, JLabel jLabel194, JLabel jLabel195, JLabel jLabel196, JLabel jLabel197, JLabel jLabel198, JLabel jLabel199, JLabel jLabel2, JLabel jLabel20, JLabel jLabel21, JLabel jLabel22, JLabel jLabel23, JLabel jLabel24, JLabel jLabel25, JLabel jLabel26, JLabel jLabel27, JLabel jLabel28, JLabel jLabel29, JLabel jLabel3, JLabel jLabel30, JLabel jLabel31, JLabel jLabel32, JLabel jLabel33, JLabel jLabel34, JLabel jLabel35, JLabel jLabel36, JLabel jLabel37, JLabel jLabel38, JLabel jLabel39, JLabel jLabel4, JLabel jLabel40, JLabel jLabel41, JLabel jLabel42, JLabel jLabel43, JLabel jLabel44, JLabel jLabel45, JLabel jLabel46, JLabel jLabel47, JLabel jLabel48, JLabel jLabel49, JLabel jLabel5, JLabel jLabel50, JLabel jLabel51, JLabel jLabel52, JLabel jLabel53, JLabel jLabel54, JLabel jLabel55, JLabel jLabel56, JLabel jLabel57, JLabel jLabel58, JLabel jLabel59, JLabel jLabel6, JLabel jLabel60, JLabel jLabel61, JLabel jLabel62, JLabel jLabel63, JLabel jLabel64, JLabel jLabel65, JLabel jLabel66, JLabel jLabel67, JLabel jLabel68, JLabel jLabel69, JLabel jLabel7, JLabel jLabel70, JLabel jLabel71, JLabel jLabel72, JLabel jLabel73, JLabel jLabel74, JLabel jLabel75, JLabel jLabel76, JLabel jLabel77, JLabel jLabel78, JLabel jLabel79, JLabel jLabel8, JLabel jLabel80, JLabel jLabel81, JLabel jLabel82, JLabel jLabel83, JLabel jLabel84, JLabel jLabel85, JLabel jLabel86, JLabel jLabel87, JLabel jLabel88, JLabel jLabel89, JLabel jLabel9, JLabel jLabel90, JLabel jLabel91, JLabel jLabel92, JLabel jLabel93, JLabel jLabel94, JLabel jLabel95, JLabel jLabel96, JLabel jLabel97, JLabel jLabel98, JLabel jLabel99, JTextField jTextField1, JToggleButton jToggleButton17, JToggleButton jToggleButton18, JToggleButton jToggleButton19, JToggleButton jToggleButton2, JToggleButton jToggleButton20, JToggleButton jToggleButton21, JToggleButton jToggleButton22, JToggleButton jToggleButton23, JToggleButton jToggleButton24, JToggleButton jToggleButton25, JToggleButton jToggleButton26, JToggleButton jToggleButton27, JToggleButton jToggleButton28, JToggleButton jToggleButton29, JToggleButton jToggleButton30, JToggleButton jToggleButton31, JToggleButton jToggleButton32, JToggleButton jToggleButton33, JToggleButton jToggleButton34, JToggleButton jToggleButton35) throws HeadlessException {
         this.runnable = runnable;
@@ -42,10 +51,7 @@ public class NewJFrame extends javax.swing.JFrame {
         
     }
     
-    /**
-     * Creates new form NewJFrame
-     * @param difficulty
-     */
+   
     public NewJFrame(int difficulty) {
         done=false;
         counter=0;
@@ -64,15 +70,21 @@ public class NewJFrame extends javax.swing.JFrame {
         addAnswers();
         addLabels2();
         wrong=false;
+        //originally their are 20 buttons
+        //if difficulty is easy, get rid of 10 buttons
         if(dif==1){
             for (int i=0;i<10;i++){
                 listsOfAnswers[i+10].setVisible(false);
             }
+            
+        //if difficulty is medium, get rid of five buttons    
         } else if (dif==2){
              for (int i=0;i<5;i++){
                 listsOfAnswers[i+15].setVisible(false);
             }
         }
+        
+        //if hard keep all 20 buttons
         
         displayPossibleAnswers();
         change(runnable.getPossibilities());
@@ -81,6 +93,7 @@ public class NewJFrame extends javax.swing.JFrame {
          timer.schedule(task, 0, 1000); //1000 is 1
     }
     //code that involves timer
+    //prints amount of time passed
     int secondsPassed=0;
     boolean cont=true;
     TimerTask task = new TimerTask() {
@@ -96,6 +109,7 @@ public class NewJFrame extends javax.swing.JFrame {
               cont=false;
            }
            else if(wrong){
+               
                jLabel201.setText("    W R '(0 o 0)' N G");    //display wrong message for three seconds
                if (counter!=2){
                    counter++;
@@ -104,6 +118,7 @@ public class NewJFrame extends javax.swing.JFrame {
                    wrong=false;
                }
            }
+           //this code changes the character you see in the middle of the screen
            else if(secondsPassed%6==0){
                 jLabel201.setText("           -(0_0-)");
            } else if(secondsPassed%6==1){
@@ -123,7 +138,7 @@ public class NewJFrame extends javax.swing.JFrame {
    
     
     
-    //when a certain buttotn is pressed, it checks to see if the user has the correct answer
+    //when a certain button is pressed, it checks to see if the user has the correct answer
     private void checkWin(){
         boolean correct=true;
         for(int i=0;i<listOfLabels.length;i++){
@@ -167,7 +182,7 @@ public class NewJFrame extends javax.swing.JFrame {
     }
     
      
-     //when you press a button, this method determines what it doess
+     //when you press a button, this method determines what it does (what labels is changes)
     public void readButton(String s){
         String sub = s.substring(0,15);
         
@@ -189,7 +204,7 @@ public class NewJFrame extends javax.swing.JFrame {
             
             
             int choice=n;
-                
+            //change the color of all numbers that are a factor    
             while (choice<100){
 
                 invert(choice);
@@ -214,13 +229,13 @@ public class NewJFrame extends javax.swing.JFrame {
             }
             
             
-           
+           //changes color of all labels that fit the condition
             int p;
             for (int i=0;i<10;i++){
                 p=i-n;
                 if(p>=0&&p<10){
                     p=(i*10)+p;
-                    System.out.println("HEREp "+p);
+                    
                     invert(p);
                 }
             }
@@ -246,7 +261,7 @@ public class NewJFrame extends javax.swing.JFrame {
             int k;
             int po;
 
-
+//changes color of all labels that fit the condition
             while (t<=n){
                 k=n-t;
                 po=t+(k*10);
@@ -283,7 +298,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 
             break;
             
-            
+            //changes color of all labels that fit the condition
             case "It's one's digi":
                 //if button checks for one's digit
             if (s.length()==21){

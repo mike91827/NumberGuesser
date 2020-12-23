@@ -1,9 +1,7 @@
 
 public class StartMenu extends javax.swing.JFrame {
 
-    /**
-     * Creates new form StartMenu
-     */
+   
     public StartMenu() {
         initComponents();
         jButton3.setVisible(false);
@@ -95,7 +93,7 @@ public class StartMenu extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+//when start button is clicked, then let tthem pick thte difficulty  
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
          //start buton       
         jButton1.setVisible(false);
