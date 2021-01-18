@@ -16,6 +16,6 @@ Once you got the solution you can check your answer and see if you got it right 
 
 The way this program works is that the simulation class is responsible for generating all the statements that make the labels on the left
 and is resposible for generating all the statements that do not contribute anything to the left label (in other words they are the 
-wrong answer). We use multiplpe mathematical equation to come up with these statements. We then pass it to newJFrame where it displays it to us in visual form.
+wrong answer). We use multiple mathematical equation to come up with these statements. We then pass it to newJFrame where it displays it to us in visual form.
 
 
